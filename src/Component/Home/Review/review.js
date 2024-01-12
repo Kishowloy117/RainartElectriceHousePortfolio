@@ -13,7 +13,7 @@ const Reviews = () => {
       <h1><strong>Happy Clients</strong></h1>
     </div>
     <div className="reviews-container">
-      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
+      <div className="review-item" style={{backgroundColor:'white'}}>
         <Row>
             <Col lg={2} md={12}>
              <img src={Person} alt="Person 3" className="people-image" />
@@ -29,7 +29,7 @@ const Reviews = () => {
             </div>
         </div>
       </div>
-      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
+      <div className="review-item" style={{backgroundColor:'white'}}>
         <Row>
             <Col lg={2} md={12}>
              <img src={Milon} alt="Person 3" className="people-image" />
@@ -45,7 +45,7 @@ const Reviews = () => {
             </div>
         </div>
       </div>
-      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
+      <div className="review-item" style={{backgroundColor:'white'}}>
         <Row>
             <Col lg={2} md={12}>
              <img src={Juwel} alt="Person 3" className="people-image" />

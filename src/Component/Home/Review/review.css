@@ -5,16 +5,22 @@
 .title-container {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 5%;
+    margin-top: 8%;
     /* Add some spacing between title and reviews */
 }
 
 .reviews-container {
     padding: 20px;
-    background-color: #1e1d1d;
+    /* background-color: #ff9933; */
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    border-radius: 0%;
+    background-image: url('../../Assets/reviewBanner.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .review-item {
@@ -93,6 +99,6 @@
     }
 }
 
-h1 {
+.title-container {
     font-family: 'Quicksand', sans-serif;
 }

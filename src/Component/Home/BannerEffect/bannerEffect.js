@@ -13,7 +13,7 @@ import FacebookBanner from '../../Assets/Banner/facebookPageBanner.jpg'
 
 export default function BannerEffect() {
   return (
-    <div>
+    <div className='mt-4'>
           <Container fluid className="custom-container d-flex align-items-center justify-content-center">
       <Row>
         <Col md={6} className="text-center mb-3 mb-md-0">
