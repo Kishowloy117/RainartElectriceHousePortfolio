@@ -12,7 +12,7 @@ export default function () {
     <div>
       <Helmet>  
         <html lang="en" />  
-        <title>Rainart Electronics House</title>  
+        <title>Rainart Electric House</title>  
         <meta name="description" content="Shop Electric Switch and Light" />  
         <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
       </Helmet>  
