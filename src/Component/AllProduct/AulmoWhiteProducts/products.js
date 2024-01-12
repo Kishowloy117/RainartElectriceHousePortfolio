@@ -3,6 +3,8 @@ import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/AulmoWhiteArray'
 import AulmoWhiteBanner from '../../Assets/Banner/aulmoWhite.jpg'
+import { Helmet } from "react-helmet"; 
+
 
 function ProductComponent(props) {
     const productsPerPage = 8;
@@ -28,6 +30,12 @@ function ProductComponent(props) {
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>Aulmo DZ30 series White</title>  
+        <meta name="description" content="Aulmo DZ30 series" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <div className="large-image-container">
         <img 
           src={AulmoWhiteBanner}

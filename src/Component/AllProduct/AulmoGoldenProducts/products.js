@@ -3,11 +3,9 @@ import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/AulmoGoldenArray'
 import AulmoBanner from '../../Assets/AulmoBanner.jpg'
-
-
+import { Helmet } from "react-helmet"; 
 
 function ProductComponent(props) {
-  // const products = props.products;
     const productsPerPage = 8;
     const [currentPage, setCurrentPage] = useState(1);
     const indexOfLastProduct = currentPage * productsPerPage;
@@ -23,6 +21,12 @@ function ProductComponent(props) {
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>Aulmo DZ30 series Golden</title>  
+        <meta name="description" content="Aulmo DZ30 series" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <div className="large-image-container">
         <img 
           src={AulmoBanner}

@@ -3,7 +3,7 @@ import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/SweArray';
 import SweBanner from '../../Assets/Banner/sweSwitch.jpg'
-
+import { Helmet } from "react-helmet"; 
 
 
 
@@ -30,6 +30,12 @@ function ProductComponent(props) {
 
   return (
     <div>
+        <Helmet>  
+        <html lang="en" />  
+        <title>SWE switch and socket</title>  
+        <meta name="description" content="SWE switch and socket" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <div className="large-image-container">
         <img 
           src={SweBanner}

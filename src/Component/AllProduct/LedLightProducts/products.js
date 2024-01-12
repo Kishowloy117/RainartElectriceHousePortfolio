@@ -3,6 +3,8 @@ import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/LedLightArray';
 import SpotLightBanner from '../../Assets/Banner/spotLight.jpg'
+import { Helmet } from "react-helmet"; 
+
 
 
 function ProductComponent(props) {
@@ -28,6 +30,12 @@ function ProductComponent(props) {
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>VR Led Bulb</title>  
+        <meta name="description" content="LED Bulb" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <div className="large-image-container">
         <img 
           src={SpotLightBanner}

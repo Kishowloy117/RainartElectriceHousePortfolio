@@ -2,22 +2,24 @@
 import React from 'react';
 import './review.css'; 
 import Person from '../../Assets/kishowloy.jpg'
+import Milon from '../../Assets/Juwel.jpeg'
+import Juwel from '../../Assets/MilonUncle.jpeg'
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Reviews = () => {
   return (
     <div>
     <div className="title-container">
-      <h2>Customer Reviews</h2>
+      <h1><strong>Happy Clients</strong></h1>
     </div>
     <div className="reviews-container">
-      <div className="review-item">
+      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
         <Row>
             <Col lg={2} md={12}>
              <img src={Person} alt="Person 3" className="people-image" />
             </Col>
             <Col lg={6} md={12}>
-            <p><strong>Kishowloy Datta</strong></p>
+            <p><strong>Kishowloy016</strong></p>
             </Col>
         </Row>
         <div className='main-review'>
@@ -27,13 +29,13 @@ const Reviews = () => {
             </div>
         </div>
       </div>
-      <div className="review-item">
+      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
         <Row>
-            <Col lg={3} md={12}>
-             <img src={Person} alt="Person 3" className="people-image" />
+            <Col lg={2} md={12}>
+             <img src={Milon} alt="Person 3" className="people-image" />
             </Col>
-            <Col lg={4} md={12}>
-            <p><strong>Kishowloy Datta</strong></p>
+            <Col lg={6} md={12}>
+            <p><strong>JhoelRana546</strong></p>
             </Col>
         </Row>
         <div className='main-review'>
@@ -43,13 +45,13 @@ const Reviews = () => {
             </div>
         </div>
       </div>
-      <div className="review-item">
+      <div className="review-item" style={{backgroundColor:'#99ff66'}}>
         <Row>
-            <Col lg={3} md={12}>
-             <img src={Person} alt="Person 3" className="people-image" />
+            <Col lg={2} md={12}>
+             <img src={Juwel} alt="Person 3" className="people-image" />
             </Col>
-            <Col lg={4} md={12}>
-            <p><strong>Kishowloy Datta</strong></p>
+            <Col lg={6} md={12}>
+            <p><strong>AkiraMilon</strong></p>
             </Col>
         </Row>
         <div className='main-review'>

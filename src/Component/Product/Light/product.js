@@ -4,7 +4,6 @@ import { Carousel } from 'react-responsive-carousel';
 import { Container, Row, Col, Button, InputGroup, FormControl } from 'react-bootstrap';
 import './productdetails.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ImageGallery from '../../Home/galleryShow';
 import WhatSpecial from './WhatSpecial/whatspecial';
 import Switch from '../../Assets/switch.png'
 import Front from '../../Assets/futa.JPG'
@@ -12,6 +11,7 @@ import Pakcet from '../../Assets/pasa.JPG'
 import Table from '../../Assets/0to18wTable.png'
 import {useParams} from 'react-router-dom';
 import {products} from '../../Arrays/LedLightArray'
+import { Helmet } from "react-helmet"; 
 //Array
 
 
@@ -24,25 +24,18 @@ const ProductDetail = ({ name, description, price, imageUrl }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const images = [
-    Switch,
-    Front,
-    Pakcet,
-  ];
-  const carouselStyle = {
-    width: '10%',
-  };
-  const cartIcon = {
-    cursor: 'pointer',
-    width: '10%', // Adjust the width as needed
-    height: '10%', // Adjust the height as needed
-  }
   if (!product) {
     return <h1>Product not found</h1>;
   }
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>{product.name}</title>  
+        <meta name="description" content="LED Bulb" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <Container className="py-3 py-lg-5">
       <Row>
         <Col md={6}>

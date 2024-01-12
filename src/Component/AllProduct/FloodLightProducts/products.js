@@ -3,6 +3,8 @@ import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/FloodLightArray';
 import FloodLightBanner from '../../Assets/Banner/floodLight2.jpg'
+import { Helmet } from "react-helmet"; 
+
 
 
 function ProductComponent(props) {
@@ -28,6 +30,12 @@ function ProductComponent(props) {
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>VR Flood Light</title>  
+        <meta name="description" content="Flood Light" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet>
       <div className="large-image-container">
         <img 
           src={FloodLightBanner}

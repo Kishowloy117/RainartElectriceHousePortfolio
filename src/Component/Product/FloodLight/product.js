@@ -8,9 +8,10 @@ import WhatSpecial from './WhatSpecial/whatspecial';
 import Switch from '../../Assets/switch.png'
 import Front from '../../Assets/futa.JPG'
 import Pakcet from '../../Assets/pasa.JPG'
-import Table from '../../Assets/0to18wTable.png'
 import {useParams} from 'react-router-dom';
 import {products} from '../../Arrays/FloodLightArray'
+import { Helmet } from "react-helmet"; 
+
 //Array
 
 
@@ -42,6 +43,12 @@ const ProductDetail = ({ name, description, price, imageUrl }) => {
 
   return (
     <div>
+      <Helmet>  
+        <html lang="en" />  
+        <title>{product.name}</title>  
+        <meta name="description" content="LED Flood Light" />  
+        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+      </Helmet> 
       <Container className="py-3 py-lg-5">
       <Row>
         <Col md={6}>
