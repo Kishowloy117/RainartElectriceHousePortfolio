@@ -2,7 +2,7 @@ import React, {useState,useEffect, useRef} from 'react';
 import './products.css';
 import {Button,Pagination} from 'react-bootstrap';
 import {products} from '../../Arrays/SpotLightArray';
-import PanelLightBanner from '../../Assets/Banner/panelLight.jpg'
+import SpotLightBanner from '../../Assets/Banner/spotLightBanner.jpg'
 import { Helmet } from "react-helmet"; 
 
 
@@ -37,7 +37,7 @@ function ProductComponent(props) {
       </Helmet>
       <div className="large-image-container">
         <img 
-          src={PanelLightBanner}
+          src={SpotLightBanner}
           alt="Large Banner"
           className="large-image"
         />

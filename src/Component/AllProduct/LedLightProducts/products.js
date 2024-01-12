@@ -34,7 +34,7 @@ function ProductComponent(props) {
         <html lang="en" />  
         <title>VR Led Bulb</title>  
         <meta name="description" content="LED Bulb" />  
-        <meta name="keywords" content="bulb, switch, flat light, shop, Aulmo, SWE, VR, light, electronic" />  
+        <meta name="keywords" content="bulb, switch, flood light, shop, Aulmo, SWE, VR, light, electronic" />  
       </Helmet>
       <div className="large-image-container">
         <img 
