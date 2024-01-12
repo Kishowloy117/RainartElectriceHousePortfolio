@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from './slider';
-import Showbar from '../Showbar/showbar';
 import Fade from 'react-reveal/Fade';
 import './about.css';
 import VrLogo from '../Assets/VRlogo.png'
@@ -81,7 +80,7 @@ const AboutUs = () => {
           </Col>
           <Col md={8} className="text-center mb-4 mt-4">
             <Fade right>
-            <p className="px-md-5">AULMO Electric has set up subsidary companies in 32 countries ,56 sales offices and agents outside of Germany. It integrates the best architects,product designers,engineers in Germany,owns a set of perfect switch quality standards and system. AULMO Electric Headquarter was set up in Saarbucken,an old city with a history for over 1000 years,in Saarland.</p>
+            <p className="px-md-5">VR Led Lighting ensures the best quality in the marketplace.We start our journey of VR Led Lighting since 2018.High quality bulb,Led flood light,Led panel light and all other Led products could successfully win the heart of our special clients from the very beginning.Customer’s satisfaction is our only goal.</p>
             </Fade>
           </Col>
         </Row>
