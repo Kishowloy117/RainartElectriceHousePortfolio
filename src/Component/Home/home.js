@@ -1,11 +1,8 @@
 import React from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
 import './home.css'; 
-import Gallery from './galleryShow';
 import Fade from 'react-reveal/Fade';
 import Showbar from '../Showbar/showbar';
-import { Reveal } from 'react-reveal';
-import ScrollImage from './ScrollEffect/scrollImage';
 import Review from './Review/review'
 import { Helmet } from "react-helmet"; 
 import BannerEffect from './BannerEffect/bannerEffect'

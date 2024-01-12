@@ -6,7 +6,7 @@ import MessengerGif from '../Assets/messengericon.png';
 function MessengerLink() {
   const openMessenger = () => {
     // Assuming you want to redirect to Facebook Messenger
-    window.location.href = 'https://www.messenger.com/';
+    window.open('https://m.me/rainartelectrichouse', '_blank');
   };
 
   return (

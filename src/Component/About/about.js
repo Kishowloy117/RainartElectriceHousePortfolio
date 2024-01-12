@@ -93,8 +93,8 @@ const AboutUs = () => {
           <Col md={{ span: 5}} className=" text-center d-flex align-items-center justify-content-center">
           <Fade left>
             <div>
-              <h3>+8801753-534473</h3>
-              <h3>example@example.com</h3>
+              <h3>+8801785526451</h3>
+              <h3>akiramilon@gmail.com</h3>
               <h3>129/3,Sifat Abdullah Market Nawabpur Road,Dhaka-1100 , Dhaka, Bangladesh</h3>
             </div>
             </Fade>

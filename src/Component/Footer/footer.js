@@ -51,11 +51,17 @@ const Footer = () => {
               <img 
                 src={FacebookLogo}
                 alt="Phone Icon" 
+                onClick={()=>{
+                  window.open('https://www.facebook.com/rainartelectrichouse?mibextid=LQQJ4d', '_blank');
+                }}
                 style={{ width: '40px', height: '40px', marginRight: '0px' }}  // Adjust dimensions and spacing as needed
               />
               <img 
                 src={WhatsappLogo}
                 alt="Phone Icon" 
+                onClick={()=>{
+                  window.open('https://wa.me/01785526451', '_blank');
+                }}
                 style={{ width: '45px', height: '45px', marginRight: '0px', marginLeft: '10%'}}  // Adjust dimensions and spacing as needed
               />
             </div>
