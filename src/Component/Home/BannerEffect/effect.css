@@ -1,0 +1,84 @@
+/* YourComponent.css */
+
+.custom-container {
+  height: 80vh;
+}
+
+.custom-container2 {
+  height: 80vh;
+}
+
+.custom-container3 {
+  height: 80vh;
+}
+
+.custom-container4 {
+  height: 80vh;
+}
+
+.custom-container5 {
+  height: 80vh;
+}
+
+.custom-container6 {
+  height: 80vh;
+}
+
+.content {
+  padding: 20px;
+  text-align: right;
+}
+
+.custom-container {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container2 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container3 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container4 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner5.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container5 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/Ashbanner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container6 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner7.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-image {
+  width: 60%;
+  /* -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666); */
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-icon {
+    width: 100%;
+  }
+}

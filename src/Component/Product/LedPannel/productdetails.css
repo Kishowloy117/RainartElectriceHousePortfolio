@@ -1,0 +1,62 @@
+/* Add responsive styles for the carousel container */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.carousel-container {
+    width: 90%;
+    height: 30%;
+    /* Set your default width for larger screens */
+    margin: auto;
+    /* Center the carousel */
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 100%;
+        /* Set full width for smaller screens */
+    }
+}
+
+.custome-title {
+    font-size: 5rem;
+    font-family: Tahoma, Verdana, sans-serif;
+    /* color: #5A5656; */
+    color: #EFA419;
+}
+
+.custome-price {
+    font-size: 4rem;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #EFA419;
+}
+
+.custome-description {
+    font-size: 1.5rem;
+    font-family: Tahoma, Verdana, sans-serif;
+    word-spacing: 20%;
+    /* color: #a80c0c; */
+}
+
+@media (max-width: 800px) {
+    .custome-title {
+        font-size: 3rem;
+    }
+
+    .custome-price {
+        font-size: 2rem;
+    }
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Or for specific elements */
+
+.custome-title {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.custome-description {
+    font-family: 'Quicksand', sans-serif;
+}

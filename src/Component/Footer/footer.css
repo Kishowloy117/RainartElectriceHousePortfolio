@@ -1,0 +1,11 @@
+.custom-quick-link {
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+@media (max-width: 820px) {
+    .custom-quick-link {
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+}

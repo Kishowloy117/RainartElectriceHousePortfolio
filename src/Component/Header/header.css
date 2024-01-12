@@ -1,0 +1,53 @@
+/* CustomDropdown.css */
+
+/* Hide the default arrow for the NavDropdown */
+#collapsible-nav-dropdown::after {
+    content: none !important;
+}
+
+/* Custom styles for hover on the NavDropdown */
+#collapsible-nav-dropdown.nav-link:focus,
+#collapsible-nav-dropdown.nav-link:hover {
+    background-color: #f8f9fa;
+    /* You can set any background color on hover */
+}
+
+#collasible-nav-dropdown::after {
+    content: none !important;
+}
+
+/* Custom styles for hover on the NavDropdown */
+#collasible-nav-dropdown.nav-link:focus,
+#collasible-nav-dropdown.nav-link:hover {
+    background-color: #f8f9fa;
+    /* You can set any background color on hover */
+}
+
+/* Ensure dropdown appears on top of other elements */
+#collapsible-nav-dropdown.dropdown-menu {
+    z-index: 1000;
+}
+
+#collasible-nav-dropdown {
+    z-index: 1000;
+}
+
+.dropdown-item {
+    background-color: white !important;
+    color: black !important;
+    font-size: large;
+}
+
+.dropdown-item:hover {
+    /* background-color: black !important;
+    color: white !important; */
+    color: blueviolet !important;
+}
+
+.navbar.bg-body-tertiary {
+    margin-top: 0 !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+}

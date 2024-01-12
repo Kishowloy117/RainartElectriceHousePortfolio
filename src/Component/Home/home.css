@@ -1,0 +1,45 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Calluna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brandon+Grotesque:wght@400;700&display=swap');
+
+.custom-label {
+    /* font-family: 'Arial', sans-serif; */
+    /* Example: Use any desired font-family */
+    word-spacing: 0.9rem;
+    /* Adjust as per your preference */
+    line-height: 1.6;
+    /* Adjust for desired line spacing */
+}
+
+.custom-description {
+    /* font-family: 'Calluna', sans-serif; */
+    /* Same font as above for consistency */
+    word-spacing: 0.8rem;
+    /* Adjust as per your preference */
+    line-height: 3;
+    /* Adjust for desired line spacing */
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+
+.custom-description h4:first-child {
+    margin-bottom: 3rem;
+    /* Add a bottom margin to the first h4 for spacing between them */
+}
+
+.custom-button {
+    background-color: brown;
+    width: 100%;
+    /* aspect-ratio: 1; */
+    border-radius: 0;
+    margin-bottom: 10%;
+}
+
+h4 {
+    font-family: 'Calluna';
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Calluna';
+}
