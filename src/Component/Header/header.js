@@ -72,7 +72,7 @@ export default function Header() {
     </NavDropdown>
     
     <NavDropdown 
-        title={<span className="font-weight-bold fs-3">Led Light</span>} 
+        title={<span className="font-weight-bold fs-3">VR LED</span>} 
         id="collapsible-nav-dropdown"
         onMouseOver={(e) => e.currentTarget.click()} 
         show={isOpen}
@@ -81,9 +81,9 @@ export default function Header() {
         className="mr-md-3"
     >
         <a className="dropdown-item" href="/led-light">Led Bulb</a>
-        <a className="dropdown-item" href="/flood-light">Flood Light</a>
+        <a className="dropdown-item" href="/flood-light">Led Flood Light</a>
         <a className="dropdown-item" href="/led-pannel">Led Panel</a>
-        <a className="dropdown-item" href="/spot-lights">Spot Light</a>
+        <a className="dropdown-item" href="/spot-lights">Led Spot Light</a>
     </NavDropdown>
     <NavDropdown
             title={<span className="font-weight-bold fs-3">Brands</span>}  

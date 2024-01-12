@@ -9,12 +9,12 @@ export   const products = [
       description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
       imageUrls: ['../Assets/AulmoGolden/1gangfront.jpg', '../Assets/AulmoGolden/1gangpacket.jpg', '../Assets/AulmoGolden/1gangback.jpg'] 
     },
-    // { 
-    //   id: 34, 
-    //   name: '2 Gang 1 Way', 
-    //   description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
-    //   imageUrls: ['../Assets/AulmoGolden/2gangfront.jpg', '../Assets/AulmoGolden/2gangpacket.jpg', '../Assets/AulmoGolden/2gangback.jpg'] 
-    // },
+    { 
+      id: 34, 
+      name: '2 Gang 1 Way', 
+      description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
+      imageUrls: ['../Assets/AulmoGolden/2gangfront.jpg', '../Assets/AulmoGolden/2gangpacket.jpg', '../Assets/AulmoGolden/2gangback.jpg'] 
+    },
     { 
       id: 35, 
       name: '3 Gang 1 Way', 
@@ -57,12 +57,12 @@ export   const products = [
       description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
       imageUrls: ['../Assets/AulmoGolden/2pinsocketfront.jpg', '../Assets/AulmoGolden/2pinsocketpacket.jpg', '../Assets/AulmoGolden/2pinsocketback.jpg'] 
     },
-    // { 
-    //   id: 42, 
-    //   name: 'TV Socket', 
-    //   description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
-    //   imageUrls: ['../Assets/AulmoGolden/tvsocketfront.jpg', '../Assets/AulmoGolden/tvsocketpacket.jpg', '../Assets/AulmoGolden/tvsocketback.jpg'] 
-    // },  
+    { 
+      id: 42, 
+      name: 'TV Socket', 
+      description: '• Color: Gold<br>• Material (panel): PC<br>• Size:86*90mm<br>• Max. Current:16A<br>• Max. Voltage: 250V<br>• Cutting-edge Technology from Germany<br>• Enable You to Enjoy Quality Life; Latest Originality from Europe Leads<br>• The Design Trend; Perfect Interpretation of Inspiration andInnovation; Combination of Fashion and Taste; AULMO, Touches the New World', 
+      imageUrls: ['../Assets/AulmoGolden/tvsocketfront.jpg', '../Assets/AulmoGolden/tvsocketpacket.jpg', '../Assets/AulmoGolden/tvsocketback.jpg'] 
+    },  
     { 
       id: 43, 
       name: 'Telephone Socket', 

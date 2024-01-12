@@ -1,6 +1,6 @@
 // Reviews.js
 import React from 'react';
-import './review.css'; // Ensure you have this CSS file for styling
+import './review.css'; 
 import Person from '../../Assets/kishowloy.jpg'
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -17,13 +17,13 @@ const Reviews = () => {
              <img src={Person} alt="Person 3" className="people-image" />
             </Col>
             <Col lg={6} md={12}>
-            <p>Ripon Rahman</p>
+            <p><strong>Kishowloy Datta</strong></p>
             </Col>
         </Row>
         <div className='main-review'>
             <div className="stars">⭐⭐⭐⭐⭐</div>
             <div className="review-content">
-            <p>Good purchase</p>
+            <p>This Aulmo series is very modern stylish series.I think best designing series for me.</p>
             </div>
         </div>
       </div>
@@ -33,13 +33,13 @@ const Reviews = () => {
              <img src={Person} alt="Person 3" className="people-image" />
             </Col>
             <Col lg={4} md={12}>
-            <p>Kishowloy Datta</p>
+            <p><strong>Kishowloy Datta</strong></p>
             </Col>
         </Row>
         <div className='main-review'>
             <div className="stars">⭐⭐⭐⭐⭐</div>
             <div className="review-content">
-            <p>kora purchase</p>
+            <p>I bought SWE series from Rainart Electric House for my new apartment,It's very well functioned and long lasting switches and sockets also.Stuffs are very friendly.</p>
             </div>
         </div>
       </div>
@@ -49,13 +49,13 @@ const Reviews = () => {
              <img src={Person} alt="Person 3" className="people-image" />
             </Col>
             <Col lg={4} md={12}>
-            <p>Kishowloy Datta</p>
+            <p><strong>Kishowloy Datta</strong></p>
             </Col>
         </Row>
         <div className='main-review'>
             <div className="stars">⭐⭐⭐⭐⭐</div>
             <div className="review-content">
-            <p>Review content here for Person 3...</p>
+            <p>Perfect Lumen,Perfect PF with two yrs guarantee😊😊That's VR Led light.</p>
             </div>
         </div>
       </div>

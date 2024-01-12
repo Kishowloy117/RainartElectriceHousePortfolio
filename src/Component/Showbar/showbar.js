@@ -15,6 +15,7 @@ export default function () {
         <img
           width= "100%"
           className="d-block w-100"
+          loading="lazy"
           src={AulmoGold}
           alt="First slide"
         />
@@ -23,6 +24,7 @@ export default function () {
         <img
           width= "100%"
           className="d-block w-100"
+          loading="lazy"
           src={AulmoWhite}
           alt="First slide"
         />
@@ -31,6 +33,7 @@ export default function () {
         <img
           width= "100%"
           className="d-block w-100"
+          loading="lazy"
           src={SweBanner}
           alt="First slide"
         />
@@ -39,6 +42,7 @@ export default function () {
         <img
           width= "100%"
           className="d-block w-100"
+          loading="lazy"
           src={LedSpotLight}
           alt="First slide"
         />
@@ -47,6 +51,7 @@ export default function () {
         <img
           width= "100%"
           className="d-block w-100"
+          loading="lazy"
           src={LedPannelLight}
           alt="First slide"
         />

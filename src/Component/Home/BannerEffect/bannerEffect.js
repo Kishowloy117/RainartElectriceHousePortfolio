@@ -8,6 +8,7 @@ import LedPannel from '../../Assets/LedPannel.png'
 import SweGangBang from '../../Assets/4gang2angle.png'
 import FloodLight from '../../Assets/floodLight.png'
 import Bulb from '../../Assets/Heatsinkangle.png'
+import Spot from '../../Assets/spotLight.png'
 import FacebookBanner from '../../Assets/Banner/facebookPageBanner.jpg'
 
 export default function BannerEffect() {
@@ -20,6 +21,7 @@ export default function BannerEffect() {
         <img
             src={DoorBell}
             alt="Banner Icon"
+            loading="lazy"
             className="custom-image"
           />
         </Fade>
@@ -40,6 +42,7 @@ export default function BannerEffect() {
             src={ThreepinSocket}
             alt="Banner Icon"
             // className="banner-icon custom-image"
+            loading="lazy"
             className=" custom-image"
           />
         </Fade>
@@ -60,6 +63,7 @@ export default function BannerEffect() {
             src={SweGangBang}
             alt="Banner Icon"
             className="custom-image"
+            loading="lazy"
             // style={{width: '80%'}}
           />
         </Fade>
@@ -79,6 +83,7 @@ export default function BannerEffect() {
         <img
             src={ Bulb}
             alt="Banner Icon"
+            loading="lazy"
             className="custom-image"
           />
         </Fade>
@@ -98,6 +103,7 @@ export default function BannerEffect() {
         <img
             src={FloodLight}
             alt="Banner Icon"
+            loading="lazy"
             className="custom-image"
           />
         </Fade>
@@ -117,6 +123,7 @@ export default function BannerEffect() {
         <img
             src={LedPannel}
             alt="Banner Icon"
+            loading="lazy"
             className="custom-image"
           />
         </Fade>
@@ -129,6 +136,27 @@ export default function BannerEffect() {
         </Col>
       </Row>
     </Container>
-    </div>
+    <Container fluid className="custom-container7 d-flex align-items-center justify-content-center">
+      <Row>
+        <Col md={6} className="text-center mb-3 mb-md-0">
+        <Fade left >
+        <img
+            src={Spot}
+            alt="Banner Icon"
+            // className="custom-image"
+            loading="lazy"
+            style={{width:'80%'}}
+          />
+        </Fade>
+        </Col>
+        <Col md={6} className="text-center my-auto text-white">
+        <Fade right >
+        <h1 className="large-title bold-text px-md-5">VR LED Spot Light</h1>
+        <Button variant="warning" href='/led-pannel'>Learn More</Button>
+        </Fade>
+        </Col>
+      </Row>
+    </Container>
+  </div>
   );
 }

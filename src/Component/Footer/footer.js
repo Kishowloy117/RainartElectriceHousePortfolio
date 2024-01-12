@@ -45,7 +45,7 @@ const Footer = () => {
                 alt="Phone Icon" 
                 style={{ width: '40px', height: '40px', marginRight: '0px' }}  // Adjust dimensions and spacing as needed
               />
-              <span>01753-534473, 01753-534473</span>
+              <span>01785526451, 01316329148</span>
             </div>
             <div className="d-flex align-items-center mt-2">
               <img 

@@ -24,6 +24,10 @@
   height: 80vh;
 }
 
+.custom-container7 {
+  height: 80vh;
+}
+
 .content {
   padding: 20px;
   text-align: right;
@@ -67,6 +71,13 @@
 .custom-container6 {
   /* Add the background image to cover the entire container */
   background-image: url('../../Assets/banner7.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-container7 {
+  /* Add the background image to cover the entire container */
+  background-image: url('../../Assets/banner8.jpg');
   background-size: cover;
   background-position: center;
 }
