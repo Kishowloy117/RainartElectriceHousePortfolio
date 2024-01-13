@@ -152,7 +152,7 @@ export default function BannerEffect() {
         <Col md={6} className="text-center my-auto text-white">
         <Fade right >
         <h1 className="large-title bold-text px-md-5">VR LED Spot Light</h1>
-        <Button variant="warning" href='/led-pannel'>Learn More</Button>
+        <Button variant="warning" href='/spot-lights'>Learn More</Button>
         </Fade>
         </Col>
       </Row>
